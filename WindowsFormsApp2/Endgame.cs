@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace WindowsFormsApp2
 {
@@ -36,9 +37,11 @@ namespace WindowsFormsApp2
         {
 
         }
-
-        private void pictureBox17_Click(object sender, EventArgs e)
+        
+        private void pictureBox18_Click(object sender, EventArgs e)
         {
+            SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
+            sp.Play();
             Mainmanu f1 = new Mainmanu();
             this.Hide();
             f1.ShowDialog();
