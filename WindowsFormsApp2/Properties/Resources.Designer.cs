@@ -261,6 +261,16 @@ namespace WindowsFormsApp2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Chattext {
+            get {
+                object obj = ResourceManager.GetObject("Chattext", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream GameplayBgmusic {
@@ -293,6 +303,16 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap Rounded_Rectangle_1111 {
             get {
                 object obj = ResourceManager.GetObject("Rounded-Rectangle-1111", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SelectVote {
+            get {
+                object obj = ResourceManager.GetObject("SelectVote", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
