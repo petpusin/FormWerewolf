@@ -11,13 +11,13 @@ using System.Media;
 using WMPLib;
 namespace WindowsFormsApp2
 {
-    public partial class Login : Form
+    public partial class Login_WF : Form
     {
         WindowsMediaPlayer player = new WindowsMediaPlayer();
         SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
         Mainmanu f1 = new Mainmanu();
 
-        public Login()
+        public Login_WF()
         {
             player.URL = "MainMenuBgmusic.mp3";
             InitializeComponent();

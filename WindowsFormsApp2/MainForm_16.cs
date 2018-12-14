@@ -12,13 +12,13 @@ using WMPLib;
 
 namespace WindowsFormsApp2
 {
-    public partial class MainForm : Form
+    public partial class MainForm_16 : Form
     {
         WindowsMediaPlayer player_day = new WindowsMediaPlayer();
         WindowsMediaPlayer player_night = new WindowsMediaPlayer();
         SoundPlayer sp = new SoundPlayer(@"C:\Users\Attachai\Source\Repos\FormWerewolf\WindowsFormsApp2\Resources\PressButton.wav");
 
-        public MainForm()
+        public MainForm_16()
         {
             player_day.URL = "GameplayBgmusic.mp3";
             player_night.URL = "Nightplaygamemusicbg.mp3";
