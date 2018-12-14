@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
     <Compile Include="Mainmanu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +99,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Mainmanu.resx">
       <DependentUpon>Mainmanu.cs</DependentUpon>
     </EmbeddedResource>
@@ -227,6 +251,48 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SelectVote.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MuteOff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BG_LOGIN1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PASSWORD--1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quit2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quit_Text1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SERVER--1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignIn1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SignUp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\USERNAME--1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MusicBut1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

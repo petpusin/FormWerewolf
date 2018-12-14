@@ -243,6 +243,16 @@ namespace WindowsFormsApp2.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BG_LOGIN {
+            get {
+                object obj = ResourceManager.GetObject("BG_LOGIN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Chatbox {
             get {
                 object obj = ResourceManager.GetObject("Chatbox", resourceCulture);
@@ -289,11 +299,61 @@ namespace WindowsFormsApp2.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MusicBut {
+            get {
+                object obj = ResourceManager.GetObject("MusicBut", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MuteOff {
+            get {
+                object obj = ResourceManager.GetObject("MuteOff", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PASSWORD__ {
+            get {
+                object obj = ResourceManager.GetObject("PASSWORD--", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
         internal static System.IO.UnmanagedMemoryStream PressButton {
             get {
                 return ResourceManager.GetStream("PressButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Quit {
+            get {
+                object obj = ResourceManager.GetObject("Quit", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Quit_Text {
+            get {
+                object obj = ResourceManager.GetObject("Quit_Text", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -313,6 +373,46 @@ namespace WindowsFormsApp2.Properties {
         internal static System.Drawing.Bitmap SelectVote {
             get {
                 object obj = ResourceManager.GetObject("SelectVote", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SERVER__ {
+            get {
+                object obj = ResourceManager.GetObject("SERVER--", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SignIn {
+            get {
+                object obj = ResourceManager.GetObject("SignIn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SignUp {
+            get {
+                object obj = ResourceManager.GetObject("SignUp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap USERNAME__ {
+            get {
+                object obj = ResourceManager.GetObject("USERNAME--", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

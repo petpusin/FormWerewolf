@@ -33,11 +33,6 @@ namespace WindowsFormsApp2
             player.controls.play();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void pictureBox3_Click(object sender, EventArgs e) 
         {
             sp.Play();
@@ -73,16 +68,13 @@ namespace WindowsFormsApp2
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            if (pictureBox1.Visible == true)
-            {
-
-
-                this.Visible = false;
-            }
+            sp.Play();
+          
         }
 
         private void pictureBox9_Click(object sender, EventArgs e)
         {
+            sp.Play();
             player.controls.pause();
             pictureBox9.Visible = false;
             pictureBox12.Visible = true;
@@ -90,6 +82,7 @@ namespace WindowsFormsApp2
 
         private void pictureBox12_Click(object sender, EventArgs e)
         {
+            sp.Play();
             player.controls.play();
             pictureBox12.Visible = false;
             pictureBox9.Visible = true;

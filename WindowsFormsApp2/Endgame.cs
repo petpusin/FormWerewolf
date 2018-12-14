@@ -8,19 +8,23 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Media;
+using WMPLib;
 
 namespace WindowsFormsApp2
 {
     public partial class Endgame : Form
     {
+        WindowsMediaPlayer player = new WindowsMediaPlayer();
+
         public Endgame()
         {
             InitializeComponent();
+            player.URL = "EndgameBackgroundmusic.mpc";
         }
 
         private void Form4_Load(object sender, EventArgs e)
         {
-
+            player.controls.play();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -46,6 +50,7 @@ namespace WindowsFormsApp2
             this.Hide();
             f1.ShowDialog();
             this.Close();
+            player.controls.stop();
         }
     }
 }
